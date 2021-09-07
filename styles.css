@@ -1,0 +1,190 @@
+
+
+
+/* Navigation Bar */
+
+nav {
+  background-color: #3ea6fd;
+  padding: 0 2%;
+  border-radius: 30px;
+}
+
+.nav-item {
+  font-size: 1.4rem;
+  padding: 0 15px;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  margin-left: 2%;
+}
+
+.logo-icon {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
+/* Main Title */
+
+#title {
+  padding: 2%;
+  text-align: center;
+}
+
+.title-image {
+  width: 100%;
+}
+
+
+
+.greeting {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.sub-greeting {
+  margin: 4% 0;
+  color: grey;
+  font-style: oblique;
+  font-weight: 300;
+}
+
+/* Quick Facts */
+
+#quick-facts {
+  text-align: center;
+}
+
+.facts-title {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.quick-facts-hr {
+  margin: 3% 30%;
+  border: 1px solid lightGrey;
+}
+
+.quick-facts-container {
+  margin: 4% 3%;
+}
+
+.facts-icon {
+  font-size: 4rem;
+}
+
+/* Skills Sections */
+
+#skills {
+  background-color: #3ea6fd;
+  padding: 2% 8%;
+}
+
+.skill-title-container {
+  margin: 2% 0 1% 0;
+  text-align: center;
+}
+
+.skill-title-text {
+  padding: 2% 5%;
+  background-color: white;
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #54E346;
+  border-radius: 40px;
+}
+
+.skill-header {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.skill-text {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: white;
+}
+
+/* CTA */
+
+.cta-element {
+  margin: 2% 0;
+}
+
+.cta-container {
+  padding: 6% 7%;
+  text-align: center;
+}
+
+.cta-container h4 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.cta-container h5 {
+  font-weight: 400;
+  color: grey;
+}
+
+.cta-button {
+  border: 0px;
+}
+
+.cta-button:hover {
+  background-color: #54e346;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #3ea6fd;
+  padding: 2% 5%;
+}
+
+.footer-credits {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+.footer-icons-container {
+  text-align: center;
+  padding: 2% 0;
+}
+
+.footer-icon {
+  color: #ffffff;
+  padding: 0 12px;
+}
+
+.footer-icon:hover {
+  color: #54e346;
+}
+
+/* Media Queries */
+
+@media (max-width:800px) {
+  .title-container {
+    margin-top: 12%;
+  }
+
+  .title-image {
+    width: 90%;
+  }
+  .fact-box {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .skill-category, .skill-text {
+    text-align: center;
+  }
+  .skill-title-container {
+    margin-top: 12%;
+  }
+  .skill-icon {
+    text-align: center;
+  }
+}
