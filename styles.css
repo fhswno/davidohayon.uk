@@ -101,6 +101,10 @@ nav {
   color: #ffffff;
 }
 
+.skill-icon {
+  text-align: center;
+}
+
 .skill-text {
   font-size: 1.2rem;
   font-weight: lighter;
