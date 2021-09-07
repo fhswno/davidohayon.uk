@@ -170,7 +170,8 @@ nav {
   .title-container {
     margin-top: 12%;
   }
-
+  .navbar-brand {
+    font-size: 1.4rem;
   .title-image {
     width: 90%;
   }
