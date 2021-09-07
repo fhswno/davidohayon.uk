@@ -166,7 +166,7 @@ nav {
 
 /* Media Queries */
 
-@media (max-width:1100px) {
+@media (max-width:800px) {
   .title-container {
     margin-top: 12%;
   }
@@ -184,6 +184,28 @@ nav {
   .skill-title-container {
     margin-top: 12%;
   }
+  .skill-icon {
+    text-align: center;
+  }
+}
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) { 
+   .title-container {
+    margin-top: 12%;
+   }
+  .title-image {
+    width: 90%;
+   }
+  .fact-box {
+    margin-top: 2%;
+    margin-bottom: 2%;
+   }
+  .skill-category, .skill-text {
+    text-align: center;
+   }
+  .skill-title-container {
+    margin-top: 12%;
+   } 
   .skill-icon {
     text-align: center;
   }
