@@ -8,35 +8,38 @@
   <link rel="icon" rel="shortcut icon" href="images/favicon.ico">
   <script src="https://kit.fontawesome.com/7297e8663e.js" crossorigin="anonymous"></script>
   <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
 <body>
 
   <!-- Navigation -->
-
   <section id="title">
 
     <div class="container-fluid">
 
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">
-          <img class="logo-icon" src="images/brand-logo.png" width="38px" height="38px" alt="">
-          davidohayon.uk
+        <a class="navbar-brand dm-sans" href="">
+          <img class="logo-icon" src="images/personal-logo.png" width="60px" height="60px" alt="">
+          David Ohayon
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto dm-sans">
             <li class="nav-item">
               <a class="nav-link" href="#quick-facts">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#skills">Stack</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#cta">Contact</a>
@@ -51,52 +54,82 @@
       <div class="title-container">
         <div class="row align-items-center">
           <div class="title-text col col-lg-6 col-md-6 col-sm-12 col-12">
-            <h1 class="title-item greeting">Hi, I'm David 👋</h1>
-            <h3 class="title-item sub-greeting">Self-Taught Developer, Growth Hacker & Finance Enthusiast.</h3>
-            <button class="title-item btn btn-lg btn-primary" type="button" name="button"><a href="mailto:hi@davidohayon.uk?subject=Getting In Touch 👋" style="text-decoration: none; color:white;"><i class="fas fa-envelope"></i> Get In Touch</a></button>
+            <h1 class="title-item greeting dm-sans">
+              Hi, I'm David 👋
+            </h1>
+            <h3 class="title-item sub-greeting dm-sans">
+              Software Engineer, Graphic Designer & Entrepreneur
+            </h3>
+            <button class="title-item btn btn-lg btn-primary dm-sans" type="button" name="button">
+              <a href="mailto:hi@davidohayon.uk?subject=Getting In Touch 👋&amp;body=Hi there,%0D%0AI would like to know more about... 🚀" style="text-decoration: none; color:white;">
+                <i class="fas fa-envelope"></i> Get In Touch</a>
+            </button>
           </div>
           <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
             <img class="title-image" src="images/title-image.png" alt="title-image">
           </div>
         </div>
       </div>
-
-
     </div>
 
   </section>
 
   <section id="quick-facts">
 
-    <h2 class="facts-title">About Me ✌️</h2>
+      <h2 class="facts-title dm-sans">
+        <span>
+          About Me ✌️
+        </span>
+      </h2>
 
-    <hr class="quick-facts-hr">
-
-
-    <div class="quick-facts-container">
+    <div class="quick-facts-container dm-sans">
       <div class="row">
 
-        <div class=" fact-box col col-lg-4 col-md-4 col-sm-12 col-12">
+        <div class="fact-box col col-lg-4 col-md-4 col-sm-12 col-12">
           <a class="facts-icon">🇬🇧</a>
           <h3>Based in London</h3>
-          <p>Pre-Settled EU Citizen</p>
-        </div>
-
-        <div class=" fact-box col col-lg-4 col-md-4 col-sm-12 col-12">
-          <a class="facts-icon">🚀</a>
-          <h3>Serial Entrepreneur</h3>
-          <p>founded 3 Tech startups</p>
+          <p>Pre-Settled Status</p>
         </div>
 
         <div class="fact-box col col-lg-4 col-md-4 col-sm-12 col-12">
-          <a class="facts-icon">🎓</a>
-          <h3>Business Graduate</h3>
-          <p>ESCP BSc Management (Class of 2020)</p>
+          <a class="facts-icon">👨‍💻</a>
+          <h3>Full Stack Engineer</h3>
+          <p>Web/Mobile/Desktop</p>
+        </div>
+
+        <div class="fact-box col col-lg-4 col-md-4 col-sm-12 col-12">
+          <a class="facts-icon">🚀</a>
+          <h3>Graphic Designer</h3>
+          <p>From Wireframing to UX Design</p>
         </div>
 
       </div>
     </div>
 
+    <div class="quote-container dm-sans">
+        <h3>
+          "A Startup(s) expert, I am used to fast-paced environments.<br>From ideation to launch, I can work on ambitious projects<br>and solve problems with a creative approach."
+        </h3>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid text-center" data-bs-interval="5000">
+          <h2>London,UK</h2>
+        </div>
+        <div class="carousel-item tive container-fluid text-center" data-bs-interval="5000">
+          <h2>London,UK</h2>
+        </div>
+        <div class="carousel-item container-fluid text-center" data-bs-interval="5000">
+          <h2>London,UK</h2>
+        </div>
+        <div class="carousel-item active container-fluid text-center" data-bs-interval="5000">
+          <h2>London,UK</h2>
+        </div>
+
+      </div>
+
+    </div>
 
   </section>
 
@@ -113,8 +146,8 @@
         </lord-icon>
       </div>
       <div class="col col-lg-9">
-        <h3 class="skill-category skill-header">📱 Front-End & UI/UX Development</h3>
-        <p class="skill-text">I am a self taught front-end developer and UI/UX designer, comfortable using HTML, CSS, Bootstap, JavaScript, SQL, Figma & Adobe XD. </p>
+        <h3 class="skill-category skill-header">📱 iOS Developer</h3>
+        <p class="skill-text">I am a self taught iOS Developer, comfortable developing any app - from ideation to launch. I use SwiftUI & UIKit, Firebase, Swift Package Manager & Adobe XD to get the job done. </p>
       </div>
     </div>
 
@@ -123,13 +156,14 @@
 
 
       <div class="skill-icon col col-lg-3">
-        <lord-icon src="https://cdn.lordicon.com/gqdnbnwt.json" trigger="loop" colors="primary:#ffffff,secondary:#54E346" style="width:250px;height:250px">
-        </lord-icon>
+        <!-- <lord-icon src="https://cdn.lordicon.com/gqdnbnwt.json" trigger="loop" colors="primary:#ffffff,secondary:#54E346" style="width:250px;height:250px">
+        </lord-icon> -->
+        <lord-icon src="https://cdn.lordicon.com/yyecauzv.json" trigger="loop" colors="primary:#ffffff,secondary:#16c72e" style="width:200px;height:200px"></lord-icon>
       </div>
 
       <div class="col col-lg-9">
-        <h3 class="skill-category skill-header">🚀 Experienced Growth Marketer</h3>
-        <p class="skill-text">From PPC to Technical, On-Page & Off-Page SEO, I have a deep expertise in Growth Marketing & Product Development, with top revenue figures. </p>
+        <h3 class="skill-category skill-header">🔗 Blockchain Developer</h3>
+        <p class="skill-text">Comfortable building DApps using Solidity on the Ethereum blockchain. I am passionate about Crypto, and always seek to build ambitious DApps projects. </p>
       </div>
 
 
@@ -144,7 +178,7 @@
 
       <div class="col col-lg-9">
         <h3 class="skill-category skill-header">📈 Swing & Algorithmic Trader</h3>
-        <p class="skill-text">I have learned Swing Trading & Automation through an Online Course, and use both Technical Analysis and AI software to grow my portfolio. </p>
+        <p class="skill-text">I have programmed Trading Robots for both Crypto & Stocks using freqtrade and pandas.</p>
       </div>
     </div>
 
