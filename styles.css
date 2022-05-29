@@ -1,5 +1,6 @@
-
-
+.dm-sans {
+  font-family: 'DM Sans', 'sans-serif';
+}
 
 /* Navigation Bar */
 
@@ -15,13 +16,16 @@ nav {
 }
 
 .navbar-brand {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-left: 2%;
+  font-weight: 600;
 }
 
 .logo-icon {
   margin-right: 5px;
   margin-bottom: 5px;
+  background-color: white;
+  border-radius: 20%;
 }
 
 
@@ -36,11 +40,9 @@ nav {
   width: 100%;
 }
 
-
-
 .greeting {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .sub-greeting {
@@ -57,21 +59,46 @@ nav {
 }
 
 .facts-title {
-  font-size: 2.7rem;
+  font-size: 3.2rem;
   font-weight: bold;
+  color: white;
 }
 
-.quick-facts-hr {
-  margin: 3% 30%;
-  border: 1px solid lightGrey;
+.facts-title span {
+  background-color: #00DC4A;
+  padding: 1% 2%;
+  border-radius: 20px;
 }
 
 .quick-facts-container {
   margin: 4% 3%;
 }
 
+.quote-container {
+  margin: 4% 3%;
+  padding: 2% 1%;
+  background-color: #E5E5E6;
+  border-radius: 20px;
+}
+
+.fact-box h3 {
+  font-size: 2rem;
+}
+
+.fact-box p {
+  font-size: 1.2rem;
+}
+
 .facts-icon {
-  font-size: 4rem;
+  font-size: 5rem;
+}
+
+.carousel-icon {
+  font-size: 5rem;
+}
+
+.carousel-item p {
+  font-size: 1.2rem;
 }
 
 /* Skills Sections */
@@ -176,6 +203,8 @@ nav {
   }
   .navbar-brand {
     font-size: 1.4rem;
+  }
+
   .title-image {
     width: 90%;
   }
